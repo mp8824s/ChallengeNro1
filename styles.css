@@ -1,0 +1,125 @@
+*{
+    background: #f3f5fc;
+    font-family:"Inter";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+ }
+
+ .logo{
+   padding-top: 10px;
+   margin-left: 10px;
+   width: 10%;
+
+ }
+
+ main{
+   display: flex;
+   margin-bottom: 50px;
+   margin-left: 80px;
+ }
+
+ .cajaTexto{
+
+   border: none;
+   color: #0A3871;
+   margin-top: 90px;
+   text-transform: lowercase;
+}
+::placeholder{
+
+   color: #0a3871;
+}
+
+   .cajaTexto:focus{
+      outline: none;
+   }
+
+.mensaje{
+ background: white;
+ background-image: url(Imagenes/Munieco.png);
+ background-repeat: no-repeat;
+ border: none;
+ border-radius: 24px;
+ color: #0A3871;
+ margin-left: 5%;
+ margin-top: 0.3%;
+ padding-left: 20px;
+ position: fixed;
+
+}
+.mensaje:focus{
+   outline: none;
+}
+
+.btn-encriptar{
+display: flex;
+margin-top: 18px;
+
+}
+
+.boton-desencriptar{
+
+   align-items: center;
+   justify-content: center;
+   padding: 2%;
+   gap: 8px;
+   width: 24%;
+   height: 80%;
+   background:#D8DFE8 ;   
+   border: 1px solid #0A3871; 
+   border-radius: 24px;
+   color:#0A3871;
+   cursor: pointer;
+   height: 67px;
+   margin-left: 30px;
+   width: 32%;
+   height: 80%;
+   font-size: 12px
+ }
+
+
+.boton-encriptar{
+   
+   align-items: center;
+   justify-content: center;
+   padding: 2%;
+   gap: 8px;
+   width: 24%;
+   height: 80%;
+   background-color: #0A3871;
+   border-radius: 24px;
+   font-size: 12px;
+   line-height: 19px;
+   text-align: center;
+   color:#fff;
+ }
+
+ 
+ .terminosCondiciones{
+   font-size: 9px;
+   color: #495057;
+ }
+
+ .copiar{
+   align-items: center;
+   justify-content: center;
+   padding: 0.5%;
+   gap: 8px;
+   width: 8%;
+   height: 5%;
+   border: 1px solid #0A3871;
+   border-radius: 24px;
+   color: #0A3871;
+   cursor: pointer;
+   /*height: 67px;*/
+   margin-left: 108px;
+   margin-top: 499px;
+   position: absolute;
+   /*width: 8%;
+   height: 7%;*/
+   font-size: 12px
+ }
+
+ 
+ 
